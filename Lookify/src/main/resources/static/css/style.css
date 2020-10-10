@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+	margin: 0 auto;
+}
+.container {
+	text-align: center;
+	min-height: 200px;
+	max-width: 500px;
+}
+h1.intro {
+	margin: 10%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+form.search {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 15px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+a.home{
+	margin: 15px;
+	padding: 10px;
+	
+}
+div.info, h3, p{
+	padding: 10px;
+	
+}
